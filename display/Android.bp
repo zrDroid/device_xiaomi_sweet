@@ -3,6 +3,8 @@ cc_library_shared {
     vendor: true,
     relative_install_path: "hw",
 
+    header_libs: ["display_headers"],
+
     shared_libs: [
         "hwcomposer.qcom",
     ],
